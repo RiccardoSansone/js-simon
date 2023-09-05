@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+.bg_black{
+    background-color: rgb(37, 32, 32);
+}
+.container_rounded{
+    width: 30%;
+    aspect-ratio: 1;
+    margin: auto;
+    margin-top: 5rem;
+    border: 2px dashed black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
