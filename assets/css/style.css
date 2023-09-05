@@ -7,14 +7,33 @@
     background-color: rgb(37, 32, 32);
 }
 .container_rounded{
-    width: 30%;
+    width: 30%; 
     aspect-ratio: 1;
     margin: auto;
-    margin-top: 5rem;
+    margin-top: 2rem;
     border: 2px dashed black;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: wheat;
+}
+.hours{
+    display: flex;
+    width: 90%;
+    height: 40%;
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: cente;
+    border-radius: 20px;
+}
+#ore, #minuti, #secondi{
+    color: rgb(128, 46, 46);
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
